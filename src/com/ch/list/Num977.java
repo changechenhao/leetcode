@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @Description
  * @Date 2019-03-17-17-46
  **/
-public class num977 {
+public class Num977 {
 
     public static int[] sortedSquares(int[] A) {
         if (A == null || A.length <= 0 ){

@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @Description
  * @Date 2019-03-17-18-28
  **/
-public class num945 {
+public class Num945 {
 
     public int minIncrementForUnique(int[] A) {
         Arrays.sort(A);

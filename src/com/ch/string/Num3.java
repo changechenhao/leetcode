@@ -8,7 +8,7 @@ import java.util.Set;
  * @Description
  * @Date 2019-03-11-22-29
  **/
-public class num3 {
+public class Num3 {
 
     //滑动窗口
     public static int lengthOfLongestSubstring(String s){

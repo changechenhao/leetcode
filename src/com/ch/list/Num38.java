@@ -5,10 +5,16 @@ package com.ch.list;
  * @Description
  * @Date 2019-03-12-22-58
  **/
-public class num38 {
+public class Num38 {
+
+    public static void main(String[] args) {
+
+
+    }
+
 
     //左下角开始
-    public int searchMatrix(int[][] matrix, int target) {
+    public static int searchMatrix(int[][] matrix, int target) {
         int res = 0;
         if (null == matrix || 0 == matrix.length)
             return res;
@@ -20,7 +26,7 @@ public class num38 {
             if (target == matrix[i][j]) {
                 res++;
                 i--;
-                j++;
+                j++ ;
             } else if (target > matrix[i][j]) {
                 j++;
             } else {

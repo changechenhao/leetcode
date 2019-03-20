@@ -8,7 +8,7 @@ import java.util.Map;
  * @Description
  * @Date 2019-03-12-22-59
  **/
-public class num169 {
+public class Num169 {
 
     public int majorityElement(int[] nums) {
         int  top = nums.length;
