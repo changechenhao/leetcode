@@ -46,7 +46,7 @@ public class Num728 {
                 if(n%10==0||m%(n%10)!=0){
                     break;
                 }
-                n=n/10;
+                n=n/10;//获取每一位数
             }
             if(n==0){
                 list.add(m);
