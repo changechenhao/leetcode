@@ -1,4 +1,4 @@
-package com.ch.LRU;
+package com.ch.lru;
 
 /**
  * @author : chenhao
