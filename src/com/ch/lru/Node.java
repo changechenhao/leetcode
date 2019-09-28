@@ -13,5 +13,6 @@ public class Node {
     public Node(String key, Object value) {
         this.key = key;
         this.value = value;
+        System.out.println(1);
     }
 }
