@@ -63,7 +63,6 @@ public class LRU {
 
     /**
      * 删除且插入
-     *
      * @param node
      */
     private void removeAndInsert(Node node) {
